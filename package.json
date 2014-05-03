@@ -1,0 +1,31 @@
+{
+    "name":"helloworld",
+    "description":"Simple Hello-world application with Express, Jade, Mongoose",
+    "author": {
+        "name": "Spy",
+        "email": "wjj474957860@gmail.com"
+    },
+    "version":"0.0.1",
+    "private":false,
+    "scripts":{
+        "start":"node app"
+    },
+    "dependencies":{
+        "express":"3.0.3",
+        "jade":"*",
+        "mongoose":"3.4.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "nodeapps",
+        "helloworld"
+    ],
+    "homepage": "",
+    "engines": {
+        "node": ">=0.4"
+    },
+    "readmeFilename": "README.md"
+}
