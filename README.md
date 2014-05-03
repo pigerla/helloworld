@@ -2,6 +2,8 @@
 
 ### [**helloworld**](http://pigerla-helloworld.jit.su/ "Click and find out") is a Node Application hosted in [Nodejitsu](https://www.nodejitsu.com/ "www.nodejitsu.com") is based on MVC architecture. 
 
+![Codeship Status](https://www.codeship.io/projects/8cc41340-b511-0131-9708-46b4e31e8267/status)
+
 ## Architecture Changed Notes ##
 
 #### 2014/05/03 ####
