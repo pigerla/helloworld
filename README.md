@@ -1,8 +1,6 @@
-# helloworld
+# helloworld #
 
-[**helloworld**](http://pigerla-helloworld.jit.su/ "Click and find out") is a Node Application hosted in [Nodejitsu](https://www.nodejitsu.com/ "www.nodejitsu.com") 
-
-**helloworld** is based on MVC architecture  
+### [**helloworld**](http://pigerla-helloworld.jit.su/ "Click and find out") is a Node Application hosted in [Nodejitsu](https://www.nodejitsu.com/ "www.nodejitsu.com") is based on MVC architecture. 
 
 ## Architecture Changed Notes ##
 
@@ -10,7 +8,7 @@
 
 - added "package.json"
 	- completed certain configurations , especially 'dependencies'
-	- run command line "npm install"
+	- run command line "npm install" , for installing
 		- [express](https://github.com/visionmedia/express)
 		- [jade](https://github.com/visionmedia/jade)
 		- [mongoose](https://github.com/LearnBoost/mongoose)
@@ -18,5 +16,5 @@
 	- as the "View" level of MVC
 	- use **jade** html template
 - added "public" folder
-	- for static files , such as icon/images/stylesheets/javascript
+	- for static files , such as icon / images / stylesheets / javascripts
 	- name for the plugin that will be used and version
