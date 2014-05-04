@@ -51,3 +51,11 @@ app.get('/' , function(req ,res){
     };
     res.render('index' , resData);
 });
+//test for Android App
+app.get('/getMsg' , function(req ,res){
+    resData = {
+        "msg" : "Congratulations ! Success"
+    };
+//    res.send(JSON.stringify({result:result}));
+    res.send(resData);
+});
