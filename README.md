@@ -2,15 +2,15 @@
 
 ### [**helloworld**](http://pigerla-helloworld.jit.su/ "Click and find out") is a Node Application hosted in [Nodejitsu](https://www.nodejitsu.com/ "www.nodejitsu.com") and based on MVC architecture. 
 
-![Codeship Status](https://www.codeship.io/projects/8cc41340-b511-0131-9708-46b4e31e8267/status)
+![Codeship Status](https://www.codeship.io/projects/8cc41340-b511-0131-9708-46b4e31e8267/status "Codeship Status")
 
 ## Architecture Changed Notes ##
 
 #### 2014/05/03 ####
 
 - added "package.json"
-	- completed certain configurations , especially 'dependencies'
-	- run command line "npm install" , for installing
+	- completed certain configurations , especially 'dependencies'.
+	- run command line "npm install" , for installing...
 		- [express](https://github.com/visionmedia/express)
 		- [jade](https://github.com/visionmedia/jade)
 		- [mongoose](https://github.com/LearnBoost/mongoose)
