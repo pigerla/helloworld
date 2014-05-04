@@ -4,6 +4,10 @@
 
 ![Codeship Status](https://www.codeship.io/projects/8cc41340-b511-0131-9708-46b4e31e8267/status "Codeship Status")
 
+**Suggestion:** If you are interseted in Node and wanna create your own Node Application , suggest you forking the repository and following my steps.what is more , I'm sure you can find some your own stuff in **Architecture Changed Notes** chapter.
+
+#### Get any issue ? click here [helloworld issue](https://github.com/pigerla/helloworld/issues) and tell me ,thx at all. ####
+
 ## Architecture Changed Notes ##
 
 #### 2014/05/03 ####
