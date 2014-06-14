@@ -38,4 +38,4 @@
 		- click [http://pigerla-helloworld.jit.su/users](http://pigerla-helloworld.jit.su/)
 - updated "app.js"
 	- require "mongoose" module and used
-	- add `routes` for users
+	- add route：`/users` for users
