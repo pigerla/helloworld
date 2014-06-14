@@ -8,6 +8,7 @@ var express = require('express') ,
     mongoose = require('mongoose'),
     ENV = process.env.NODE_ENV || 'development' ;
 var app = express();
+var fs = require('fs');
 
 // Application setups
 app.configure('all' , function(){
@@ -32,11 +33,17 @@ app.configure('all' , function(){
 // Error handling setup
 app.configure('development', function () {
     app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
+    mongoose.connect('mongodb://nodejitsu:ad248da2797713791a2ed93fc81dd4d8@troup.mongohq.com:10027/nodejitsudb8510013760');
 });
 
 app.configure('production', function() {
     app.use(express.errorHandler());
 });
+
+//load all files in models dir
+fs.readdirSync(__dirname + '/models').forEach(function(filename){
+    if(~filename.indexOf('.js')) require(__dirname + '/models/' + filename);
+})
 
 
 // Create server and listen application port specified above
@@ -51,11 +58,24 @@ app.get('/' , function(req ,res){
     };
     res.render('index' , resData);
 });
+
+//get info from remote mongodb
+app.get('/users' , function(req ,res){
+    mongoose.model('users').find(function(err, users){
+        res.send(users);
+    })
+});
+app.get('/posts' , function(req ,res){
+    mongoose.model('posts').find(function(err, posts){
+        res.send(err+"/"+posts);
+    })
+});
+
+
 //test for Android App
 app.get('/getMsg' , function(req ,res){
     resData = {
         "msg" : "Congratulations ! Success"
     };
-//    res.send(JSON.stringify({result:result}));
     res.send(resData);
 });

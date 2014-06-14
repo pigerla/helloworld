@@ -27,3 +27,15 @@
 - configured **Codeship**
 	- Push codes into Github then deploy in Nodejitsu. 
 	- video:[How to deploy a node.js app from GitHub to Nodejitsu on Vimeo](http://vimeo.com/76988907 "Click and see the video").
+
+#### 2014/06/14 ####
+
+- updated "package.json"
+	- added `"mongoose": "3.4.0"` into `"dependencies"`
+- added "models" folder
+	- as the "Model" level of MVC
+	- added "users.js" file for testing
+		- click [http://pigerla-helloworld.jit.su/users](http://pigerla-helloworld.jit.su/)
+- updated "app.js"
+	- require "mongoose" module and used
+	- add `routes` for users
