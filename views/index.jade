@@ -1,7 +1,11 @@
 //
    Created by Spy on 2014/5/3.
 extends layout
+block css
+    link(href="./stylesheets/index.css",type="text/css",rel="stylesheet")
 block content
     h1
         | Hi , I am #{author} , welcome aboard HelloWorld Node Application
-
+block js
+    script(src="./javascripts/jquery/2.1.1/jquery-2.1.1.min.js",type="text/javascript")
+    script(src="./javascripts/plugin/snowing.js",type="text/javascript")
