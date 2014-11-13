@@ -27,6 +27,9 @@
     "engines": {
         "node": ">=0.4"
     },
+    "domains": [
+        "note.pigerla.com"
+    ],
     "readmeFilename": "README.md",
     "subdomain": "pigerla-helloworld"
 }
